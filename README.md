@@ -30,5 +30,7 @@ You can run the following command to test on the image at your working directory
 ```
 python infer.py --text "text here" --model_path "path_to_model" --tokenizer_path "path_to_tokenizer" --embedding_matrix_path "path_to_embedding_matrix" --model_type "model_type"
 ```
-The model type could be: "cnn", "lstm","bert", "deberta", "albert", "xlnet".
+The model type could be: "cnn", "lstm","bert", "deberta", "albert", "xlnet".![Screenshot (367)](https://github.com/user-attachments/assets/01779097-62f8-4556-a648-8a1b92ba25d1)
+This is an example of using the LSTM model using the sciprt above
+
 
