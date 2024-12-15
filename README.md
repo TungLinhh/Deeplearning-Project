@@ -28,5 +28,7 @@ After downloading, place the file in the `./checkpoints/` directory, it is recom
 
 You can run the following command to test on the image at your working directory
 ```
-python infer.py --text "text here" --model_path "path_to_model" --tokenizer_path "path_to_tokenizer" --embedding_matrix_path "path_to_embedding_matrix" --model_type cnn
+python infer.py --text "text here" --model_path "path_to_model" --tokenizer_path "path_to_tokenizer" --embedding_matrix_path "path_to_embedding_matrix" --model_type "model_type"
 ```
+The model type could be: "cnn", "lstm","bert", "deberta", "albert", "xlnet".
+
